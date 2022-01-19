@@ -1,0 +1,623 @@
+@media screen and (min-width:1200px) {
+    #wrap>div>article,#wrap>div>header {
+        width: 1200px;
+    }   
+}
+
+@media screen and (max-width:1199px) and (min-width:992px) {
+    #headerWrap {
+        width: 100%;
+        position: fixed;
+        background-color: #fff;
+        box-shadow: 0 1px 0 0 rgb(0 0 0 / 10%);
+        z-index: 100;
+    }
+    header {
+        margin: 0 auto;
+        height: 50px;
+        width: 90%;
+        position: relative;
+        max-width: 1060px;
+    }
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .logoAll {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .MainLogo {
+        display: flex;
+    }
+    .mainBar img {
+        margin-top: -2px;
+        margin-right: 15px;
+        width: 17px;
+        height: 14px;
+        object-fit: contain;
+    }
+    .menuName {
+        text-align: center;
+        margin: 0;
+    }
+    .menuName .xsHomeButton {
+        display: none;
+        box-shadow: inset 0 -2px #258bf7;
+    }
+    .menuName li.xsHomeButton a {
+        padding-left: 20px;
+    }
+    .menuName li a {
+        position: relative;
+        vertical-align: middle;
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 600;
+        padding: 15px;
+        display: inline-block;
+    }
+    .menuName li {
+        display: inline-block;
+    }
+    .menuName li:after {
+        height: 100%;
+        content: "";
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .menuName li a>em {
+        position: absolute;
+        top: 10px;
+        right: -5px;
+        pointer-events: none;
+        font-style: normal;
+    }
+    .menuName li a>span {
+        position: absolute;
+        top: 10px;
+        right: -7px;
+        pointer-events: none;
+    }
+    .sideButton {
+        padding: 9px 0px;
+        height: 100%;
+        display: block;
+    }
+    .sideButton>ul {
+        height: 100%;
+        margin: 0;
+    }
+    .sideButton>ul li {
+        position: relative;
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+    }
+    .sideButton>ul li .searchButton {
+        position: relative;
+        margin-top: 5px;
+    }
+    .sideButton>ul li>* {
+        height: 100%;
+        padding: 0px 5px;
+        color: #333;
+        font-weight: 600;
+        line-height: 1;
+    }
+    .sideButton>ul li .notiButton {
+        position: relative;
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+    .sideButton>ul .profileBox {
+        display: inline-flex;
+        flex-direction: row;
+        align-items: center;
+        margin-right: 5px;
+    }
+    .sideButton>ul li .profileButton {
+        height: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        vertical-align: top;
+        padding: 0;
+        margin-right: 0px;
+    }
+    .sideButton>ul li .profileButton .avatarBorder {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        border: 1px solid #e1e2e3;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    .sideButton>ul li .profileButton .avatarBorder>div {
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        background-position: 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .newNoti>span {
+        top: -2px;
+        left: 22px;
+        position: absolute;
+        padding: 0!important;
+    }
+    .sideButton>ul .mdMoreVisible {
+        display: inline-flex;
+    }
+    .sideButton>ul .mdMoreVisible:before {
+        display: block;
+        content: "";
+        width: 1px;
+        height: 10px;
+        background-color: #e1e2e3;
+        margin: auto 10px;
+    }
+    .sideButton>ul li .dashboardButton {
+        font-size: 13px;
+        color: #666;
+        line-height: 30px;
+        height: 30px;
+        border: 1px solid #e1e2e3;
+        border-radius: 15px;
+        padding: 0px 10px;
+        margin: 0px;
+        font-weight: 400;
+    }
+    .sideButton>ul li a {
+        display: inline-block;
+        vertical-align: bottom;
+    }
+    .Aside_visibleMenu__Dki9n {
+        display: none;
+    }
+    .sideButton>ul li .menuButton>svg {
+        width: 18px;
+        height: 18px;
+    }
+    .Padding_padding___Nyki {
+        height: 50px;
+        display: block;
+    }
+
+    .mainMain {
+        padding-top: 0;
+        background-color: #fff;
+    }
+    .TopBanner {
+        position: relative;
+        overflow: hidden;
+    }
+    .TopBanner .slick-slider {
+        margin-bottom: 0;
+    }
+    .slick-slider {
+        position: relative;
+        display: block;
+        box-sizing: border-box;
+        user-select: none;
+        touch-action: pan-y;
+    }
+    .slick-list {
+        padding: 0px 40px;
+        position: relative;
+        overflow: hidden;
+        display: block;
+        margin: 0;
+    }
+    .slick-track {
+        opacity: 1;
+        /* transform: translate3d(-23848px, 0px, 0px); */
+        width: 100%;
+        position: relative;
+        left: 340px;
+        top: 0;
+        display: block;
+    }
+    .slick-track:before {
+        content: "";
+        display: table;
+    }
+    .TopBanner .slick-slider .slick-slide {
+        position: relative;
+        padding: 0;
+    }
+    .slick-initialized .slick-slide {
+        display: block;
+    }
+    .slick-slide {
+        float: left;
+        height: 100%;
+        min-height: 1px;
+    }
+    .TopBanner .slick-slider .slick-slide>div {
+        margin: 20px 10px;
+    }
+    .imageImage {
+        height: 183px;
+        border-radius: 3px 3px 0px 0px;
+    }
+    .imageImage>a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+    .TopBanner .slick-slider .slick-slide>div>div>div>a>img {
+        display: inline-block;
+    }
+    .bannerImages {
+        width: 100%;
+        height: 100%;
+        border-radius: 4px;
+        object-fit: cover;
+    }
+    .descAll {
+        position: inherit;
+        bottom: 28px;
+        width: inherit;
+        height: 146px;
+        border-radius: 4px;
+        background-color: #fff;
+        text-align: center;
+        left: 34px;
+    }
+    .descAll>dt {
+        margin-top: 20px;
+        font-size: 18px;
+        line-height: 1;
+        font-weight: 700;
+        color: #333;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    .descAll>dd {
+        margin-top: 6px;
+        height: 15px;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 1.15;
+        color: #666;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    .divider01 {
+        display: none;
+    }
+    .Divider {
+        height: 1px;
+        margin: 0;
+        border: none;
+        flex-shrink: 0;
+        background-color: #ececec;
+    }
+    hr {
+        box-sizing: content-box;
+    }
+    .Information_Information__directButton__8Kgp3 {
+        margin: 0;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 1;
+        color: #36f;
+    }
+    .Button_Button__sizeMedium__k0A1w {
+        height: 40px;
+    }
+    .Button_Button__text__GCOTx {
+        padding: 6px 8px;
+    }
+    .Button_Button__root__V1ie3 {
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        vertical-align: middle;
+        min-width: 64px;
+        box-sizing: border-box;
+        border-radius: 25px;
+        cursor: pointer;
+    }
+    .Button_Button__label__1Kk0v {
+        width: 100%;
+        font-size: inherit;
+        font-weight: inherit;
+        display: inherit;
+        align-items: inherit;
+        justify-content: inherit;
+        color: inherit;
+    }
+    .TopBanner_nextArrow__6wqx0 {
+        display: none;
+    }
+    .TopBanner_arrow__BN_7d {
+        display: none;
+    }
+    .TopBanner_prevArrow__B7nqk {
+        display: none;
+    }
+}
+
+@media screen and (max-width:991px) and (min-width:768px) {
+    header {
+        height: 110px;
+        margin: 0 auto;
+        width: 90%;
+    }
+    .logoAll {
+        height: 60px;
+        width: 100%;
+    }
+    .mainLogo {
+        position: relative;
+        float: left;
+    }
+    .menuName {
+        justify-content: flex-start;
+        margin-right: 30px;
+    }
+    .menuName .xsHomeButton {
+        display: none;
+    }
+    .menuName li a {
+        padding: 11px 10px 19px;
+    }
+    .menuName li a {
+        font-size: 13px;
+    }
+    .menuName li a>em {
+        top: 5px;
+        right: -7px;
+    }
+    .menuName li a>span {
+        right: -8px;
+        top: 4px;
+    }
+    .sideButton {
+        padding: 9px 0px;
+        height: 100%;
+        display: block;
+    }
+    .sideButton>ul {
+        height: 100%;
+        margin: 0;
+    }
+    .sideButton>ul li {
+        position: relative;
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+    }
+    .sideButton>ul li .searchButton {
+        margin: 0;
+        position: relative;
+    }
+    .sideButton>ul li .notiButton {
+        margin: 0;
+        position: relative;
+    }
+    .sideButton>ul .profileBox {
+        display: none;
+    }
+    .sideButton>ul .profileBox {
+        margin-right: 0;
+        flex-direction: row;
+        align-items: center;
+    }
+    .sideButton>ul li .profileButton {
+        margin-right: 0;
+        height: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        vertical-align: top;
+        padding: 0;
+    }
+    .Badge {
+        display: none;
+    }
+    .sideButton>ul .mdMoreVisible {
+        display: none;
+    }
+    .sideButton>ul li .dashboardButton {
+        margin: 0;
+    }
+    .sideButton>ul li .menuButton {
+        margin-right: 0;
+        padding-left: 10px;
+    }
+    .sideButton>ul li>* {
+        height: 100%;
+        padding: 0px 5px;
+        font-size: 14px;
+        color: #333;
+        font-weight: 600;
+        line-height: 1;
+    }
+    .sideButton>ul li .menuButton>svg {
+        width: 18px;
+        height: 18px;
+    }
+    .Aside_visibleMenu__Dki9n {
+        display: none;
+    }
+    .Padding_padding___Nyki {
+        height: 110px;
+    }
+    .mainMain {
+        padding-top: 0;
+        background-color: #fff;
+    }
+    .TopBanner {
+        position: relative;
+        overflow: hidden;
+    }
+    .TopBanner .slick-slider {
+        margin-bottom: 0;
+    }
+    .slick-slider {
+        position: relative;
+        display: block;
+        box-sizing: border-box;
+        user-select: none;
+        touch-action: pan-y;
+    }
+    .slick-list {
+        padding: 0px 40px;
+        position: relative;
+        overflow: hidden;
+        display: block;
+        margin: 0;
+    }
+    .slick-track {
+        opacity: 1;
+        /* transform: translate3d(-23848px, 0px, 0px); */
+        width: 100%;
+        position: relative;
+        left:340px;
+        top: 0;
+        display: block;
+    }
+    .slick-track:before {
+        content: "";
+        display: table;
+    }
+    .TopBanner .slick-slider .slick-slide {
+        position: relative;
+        padding: 0;
+    }
+    .slick-initialized .slick-slide {
+        display: block;
+    }
+    .slick-slide {
+        float: left;
+        height: 100%;
+        min-height: 1px;
+    }
+    .TopBanner .slick-slider .slick-slide>div {
+        margin: 20px 10px;
+    }
+    .imageImage {
+        height: 183px;
+        border-radius: 3px 3px 0 0;
+    }
+    .imageImage>a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+    .TopBanner .slick-slider .slick-slide>div>div>div>a>img {
+        display: inline-block;
+    }
+    .bannerImages {
+        width: 100%;
+        height: 100%;
+        border-radius: 4px;
+        object-fit: cover;
+    }
+    .descAll {
+        position: inherit;
+        bottom: 28px;
+        width: inherit;
+        height: 146px;
+        border-radius: 4px;
+        background-color: #fff;
+        text-align: center;
+        left: 34px;
+    }
+    .descAll>dt {
+        margin-top: 20px;
+        font-size: 18px;
+        line-height: 1;
+        font-weight: 700;
+        color: #333;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    .descAll>dd {
+        margin-top: 6px;
+        height: 15px;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 1.15;
+        color: #666;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    .divider01 {
+        display: none;
+    }
+    .Divider {
+        height: 1px;
+        margin: 0;
+        border: none;
+        flex-shrink: 0;
+        background-color: #ececec;
+    }
+    hr {
+        box-sizing: content-box;
+    }
+    .Information_Information__directButton__8Kgp3 {
+        margin: 0;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 1;
+        color: #36f;
+    }
+    .Button_Button__sizeMedium__k0A1w {
+        height: 40px;
+    }
+    .Button_Button__text__GCOTx {
+        padding: 6px 8px;
+    }
+    .Button_Button__root__V1ie3 {
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        vertical-align: middle;
+        min-width: 64px;
+        box-sizing: border-box;
+        border-radius: 25px;
+        cursor: pointer;
+    }
+    .Button_Button__label__1Kk0v {
+        width: 100%;
+        font-size: inherit;
+        font-weight: inherit;
+        display: inherit;
+        align-items: inherit;
+        justify-content: inherit;
+        color: inherit;
+    }
+    .TopBanner_nextArrow__6wqx0 {
+        display: none;
+    }
+    .TopBanner_arrow__BN_7d {
+        display: none;
+    }
+    .TopBanner_prevArrow__B7nqk {
+        display: none;
+    }
+}
+
+@media screen and (max-width:767px) {
+    /*  통과  */
+}
